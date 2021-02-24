@@ -1,3 +1,37 @@
-@import "header";
-@import "variable";
-@import "body";
+// variable
+
+$buttonColor: rgb(0, 0, 0);
+$textColor: rgb(255, 0, 0);
+$headingColor: rgb(0, 0, 0);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hero-area{
+    background-color: bisque;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h1{
+        color: tomato;
+    }
+    h2{
+        color: $headingColor;
+        font-size: 5rem;
+        padding: 1rem 0;
+    }
+    p{
+        font-size: 2rem;
+        background-color: white;
+        padding: 20px;
+        color: $textColor;
+        border-radius: 5px;
+    }
+}
+

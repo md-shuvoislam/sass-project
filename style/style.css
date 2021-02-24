@@ -24,8 +24,21 @@
           flex-direction: column;
 }
 
+.hero-area h1 {
+  color: tomato;
+}
+
 .hero-area h2 {
   color: black;
   font-size: 5rem;
+  padding: 1rem 0;
+}
+
+.hero-area p {
+  font-size: 2rem;
+  background-color: white;
+  padding: 20px;
+  color: red;
+  border-radius: 5px;
 }
 /*# sourceMappingURL=style.css.map */
